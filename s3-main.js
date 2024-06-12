@@ -59,11 +59,11 @@ function getUploadingProgress(uploadSize, totalSize) {
 // Function to uplaod the files
 async function uploadMedia() {
     let credentialRequest = {
-        accessKeyId: 'AKIA4JC2O7NMNX5GMF5D', 
-        secretAccessKey: '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',
+        accessKeyId: '', 
+        secretAccessKey: '',
         signatureVersion: 'v4',
-        region: 'eu-north-1',
-        Bucket: 'ai-gurukul' 
+        region: '',
+        Bucket: '' 
     };
 
     let mediaStreamRequest = getFile(document.getElementById("fileToUpload").files[0]);
